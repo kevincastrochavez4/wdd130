@@ -1,0 +1,24 @@
+body {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-variant-ligatures: none;
+  background: gray;
+  line-height: 1.5rem;
+}
+
+.skew {
+  position: absolute;
+  left: 31%;
+  width: 36%;
+  padding: 2em;
+  background: white;
+  text-align: justify;
+  height: calc(100% - 4rem);
+  overflow: scroll;
+
+  -webkit-transform: perspective(180px) rotateX(30deg);
+}

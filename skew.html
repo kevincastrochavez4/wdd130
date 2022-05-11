@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="skew.css" />
+    <script src="skew.js" defer></script>
+  </head>
+  <body>
+    <div class="skew">
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+      <p>
+        I started by looking around for examples of non-rectangular containers
+        that allowed text to flow naturally inside of them. I assumed it'd be
+        possible with CSS since programs like Adobe Illustrator and Microsoft
+        Word have been doing it for years. I found the CSS Shapes Module and
+        that works very well for simple text content. It can even full justify
+        the text. However it doesn’t allow content to scroll within the
+        container so as the user scrolls down, the entire slanted container
+        appears to move left, which wasn’t the effect I wanted. Instead I took a
+        simpler approach and simply added a transform: skew to the container:
+      </p>
+      <p>
+        That was a good start, scrolling worked as expected and resizing was
+        handled with only CSS, but the obvious problem is that now the text and
+        images are slanted as well. I made a few attempts to solve this with CSS
+        but eventually came up with an even simpler solution: create a new font
+        with the reverse slant using FontForge, an open-source font editor.
+      </p>
+      <p>
+        I'd chosen Roboto Condensed Light for the site's main content so I
+        opened the .ttf file in FontForge, selected all the glyphs, and applied
+        a skew of 14 degrees to compensate for the container’s slant, and saved
+        it out as Roboto-Rev-Italic.ttf.
+      </p>
+      <p>
+        That worked great for text, even selecting functioned normally. For
+        images and video, which are display:block elements I was able to simply
+        apply the reverse slant to their transform property. Pseudoelements
+        background give them to span the entire width of the container as well.
+      </p>
+    </div>
+  </body>
+</html>
